@@ -3,7 +3,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(r"C:\FinPulse")
 INPUT_PATH = PROJECT_ROOT / "data" / "powerbi" / "FinPulse_PowerBI.csv"
-OUTPUT_FOLDER = PROJECT_ROOT / "python" / "charts"
+OUTPUT_FOLDER = PROJECT_ROOT / "python" / "tables"
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(INPUT_PATH)
